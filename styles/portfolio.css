@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-title{
+    font-weight:800px;
+font-size: 45px;
+/* line-height: 61px; */
+
+}
+.text-primary{
+    color:red;
+
+
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 200px;
+}
+nav ul {
+    display: flex;
+    justify-items: last baseline;
+     justify-content: space-between; 
+}
+nav li {
+    list-style: none;
+    justify-content: space-between;
+    margin-left:50px ;
+    
+
+
+}
