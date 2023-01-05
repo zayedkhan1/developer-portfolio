@@ -52,6 +52,13 @@ nav li {
 
 
 }
+.hader{
+    background: rgba(253, 110, 10, 0.2);
+    background-image: url('../images/header_bg.png'),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right ,left;
+
+}
 /* baner styles */
 .banner{
     margin: 0 200px;
@@ -61,17 +68,68 @@ nav li {
 .banenr-title{
     font-weight: 700;
 font-size: 85px;
+margin-bottom: 5px;
+
 
 }
 .banner-subtitle{
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 20px;
 
 }
 .color{
     color: #757575;
     font-size: 18px;
+    margin-bottom: 15px;
 }
+.btn{
+    background-color: coral;
+    margin-left: 10px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+.description{
+    color: #757575;
+    /* background-color: antiquewhite; */
+    font-size: 18px;
+    margin: 25px;
+
+}
+.about{
+margin-top: 130px;
+/* background-color: cyan; */
+border-radius: 15px;
+padding: 130px 150px;
+margin-bottom: 20px;
+text-align: center;
+font-weight: 800;
+}
+.section-title{
+    text-align: center;
+    margin: 30px;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+
+}
+.info-description{
+    font-weight: 700;
+    color: #474747;
+    font-size: 20px;
+}
+
+
+
 
     
     
