@@ -188,6 +188,35 @@ padding: 130px 150px;
     text-align: center;
 }
 
+/* Resume secton style  end here */
+/* contact sectio style start here */
+.contact{
+    background-color: #FFF8F3;
+   
+
+}
+.contact_section{
+   
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px 150px;
+}
+    .contact input,textarea{
+        margin: 18px;
+        border: 0;
+        padding: 10px 15px;
+        
+    }
+input{
+    height: 30px;
+}
+.btn_primary1{
+    width: 100%;
+    background-color:orange;
+    padding: 5px;
+    border-radius: 0.3rem;
+}
 
 
 
@@ -200,11 +229,8 @@ padding: 130px 150px;
 
 
 
+/* contact sectio style end here */
 
 
 
 
-
-
-
-/* Resume secton style start here */
