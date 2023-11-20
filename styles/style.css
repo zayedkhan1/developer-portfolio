@@ -3,6 +3,12 @@
     font-family: 'Open Sans', 'sans-serif';
 }
 /* header and nav style start */
+.header{
+    background-color: #FFEBD8;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -15,9 +21,39 @@ nav{
 
 nav ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style-type:none;
     margin-left: 10px;
     
 }
+.btn_primary{
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    background-color:orange;
+    height: 36px;
+  margin: o.3rem;
+  font-weight: 600;
+  border: 0.8px solid;
+}
+/* header and nev style end */
+
+
+/*header and banner style start  */
+.banner{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner_subtitle{
+     font-weight: 700;
+
+}
+.banner_title{
+    font-size: 50px;
+}
+.banner_description{
+    font-size: 18px;
+}
+/* header and banner style end here */
