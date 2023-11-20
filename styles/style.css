@@ -2,6 +2,10 @@
 *{
     font-family: 'Open Sans', 'sans-serif';
 }
+
+section{
+    margin-top: 130px;
+}
 /* header and nav style start */
 .header{
     background-color: #FFEBD8;
@@ -106,7 +110,7 @@ text-align: center;
 /* What I do secton style start here */
 
 .what_i_do{
-    margin-top: 120px;
+    
 background-color: #FFEBD8;
 padding: 130px 150px;
 
@@ -138,3 +142,69 @@ padding: 130px 150px;
 .skill_description{
 
 }
+/* What I do secton style end here */
+
+/* Resume secton style start here */
+
+.resume_section{
+    
+
+}
+.resume_section_title{
+    text-align: center;
+    
+  
+}
+.resume{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 1rem;
+    margin-top: 60px;
+}
+.education_section_title{
+    text-decoration: underline;
+}
+.education_title{
+    font-size: larger;
+    font-weight: 800;
+    
+
+}
+.university_year{
+    font-size: small;
+    font-weight: 800;
+
+
+}
+.edu{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px dotted black;
+ 
+}
+.resume_button{
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Resume secton style start here */
