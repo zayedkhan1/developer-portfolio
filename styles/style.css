@@ -212,20 +212,12 @@ input{
     height: 30px;
 }
 .btn_primary1{
-    width: 100%;
+    
     background-color:orange;
-    padding: 5px;
+    padding: 10px;
     border-radius: 0.3rem;
+    font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
 
 
 
