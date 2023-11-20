@@ -75,8 +75,8 @@ text-align: center;
 .section_title{
     
     font-weight: 900;
-    margin-bottom: 30px;
-    color:black;
+    margin-bottom: 50px;
+   
 
 }
 .section_decription{
@@ -95,10 +95,46 @@ text-align: center;
 }
 .info_titel{
     font-size: 15px;
+    
 }
 .info_description{
     font-weight: 800;
+    margin-top: 10px;
 }
 /* about section style end here */
 
 /* What I do secton style start here */
+
+.what_i_do{
+    margin-top: 120px;
+background-color: #FFEBD8;
+padding: 130px 150px;
+
+
+}
+.section_title2{
+    text-align: center;
+   
+}
+.skills{
+    display: flex;
+    gap: 24px;
+   
+
+}
+.skill{
+    background-color: wheat;
+    margin-top: 60px;
+    padding: 15px;
+    box-shadow: 0.2rem 0.3rem 0.3rem wheat;
+
+}
+.skill_title{
+
+    font-weight: 800;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.skill_description{
+
+}
