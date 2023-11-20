@@ -57,3 +57,48 @@ nav li{
     font-size: 18px;
 }
 /* header and banner style end here */
+
+/* main section style start here */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* main section style end here */
+
+/* about section style start here */
+.about{
+margin-top: 120px;
+background-color: #FFEBD8;
+padding: 130px 150px;
+text-align: center;
+}
+.section_title{
+    
+    font-weight: 900;
+    margin-bottom: 30px;
+    color:black;
+
+}
+.section_decription{
+    font-size: 18px;
+    margin-bottom: 30px;
+  
+    
+
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+}
+.about_info{
+
+}
+.info_titel{
+    font-size: 15px;
+}
+.info_description{
+    font-weight: 800;
+}
+/* about section style end here */
+
+/* What I do secton style start here */
